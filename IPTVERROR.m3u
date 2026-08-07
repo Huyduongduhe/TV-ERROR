@@ -7,7 +7,7 @@ https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/vtv1-avc1_5600000=100
 #EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.imgur.com/BVwi3K3.png", VTV2
 https://vips-livecdn.fptplay.net/live/media/vtv2/live247-hls-avc/vtv2-avc1_5600000=10000-mp4a_131600=20000.m3u8
 #EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://i.imgur.com/7rLCvgS.png", VTV3
-https://vips-livecdn.fptplay.net/live/media/v3abr/live247-hls-avc/index.m3u8
+https://vips-livecdn.fptplay.net/live/media/vtv3/live247-hls-avc/vtv3-avc1_5600000=10000-mp4a_131600=20000.m3u8
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.imgur.com/9zVTtsA.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vtv4_2000.stream/chunks_dvr_range-${start}-${offset}.m3u8", VTV4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://live.fptplay53.net/live/media/vtv4/live247-hls-avc/vtv4-avc1_5600000=10000-mp4a_131600=20000.m3u8
@@ -38,7 +38,7 @@ https://vips-livecdn.fptplay.net/live/media/vtv10/live247-hls-avc/vtv10-avc1_560
 #EXTINF:-1 tvg-id="vietnamtoday" group-title="VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/4/4c/Vietnam_Today_v2.png/revision/latest/scale-to-width-down/732?cb=20250813040753&path-prefix=vi", VIETNAM TODAY 
 https://freem3u.xyz/api/live/play.m3u8?vid=9951
 #EXTINF:-1 tvg-id="" group-title="VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/8/8c/VTVgo_logo.png/revision/latest/scale-to-width-down/690?cb=20220627071056&path-prefix=vi", VTVgo
-https://indication-database-lil-proceeding.trycloudflare.com/VTV24
+https://item-proceed-space-deutschland.trycloudflare.com/VTV24
 #------------------------VTVcab------------------------#
 #EXTINF:-1 tvg-id="onviegiaitri" group-title="VTVcab" tvg-logo="https://i.imgur.com/7GSKm46.png",ON Vie Giải trí
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -51,7 +51,11 @@ https://tv.vietanhtv.top/vieon/vieon.php?id=vie-giai-tri-hd
 https://livevlisctcdnw.seenow.vn/livesnv2/PHIM_VIET/manifest.mpd
 #EXTINF:-1 tvg-id="onsports" group-title="VTVcab" tvg-logo="https://i.imgur.com/moYwxwf.png", ON Sports HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://aismile.dpdns.org/play/Xp0xPSl85wdNA55xBqtBGdOOvy-m3p9K5-Cg-HdYvfk/ts
+#KODIPROP:inputstream=inputstream.adaptive 
+#KODIPROP:inputstream.adaptive.manifest_type=dash 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/tv/key.php?id=c410ddc6a75244639fd0561fba5ef19b:30d13ea42031b9ff8271e5dc37d90e10 
+https://cdnet-cdn-01.onsports.vn/onplus/THETHAO_HD/manifest.mpd 
 #EXTINF:-1 tvg-id="onmovies" group-title="VTVcab" tvg-logo="https://i.imgur.com/765Y3jw.png", YouTV-On Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -66,7 +70,11 @@ https://livevlisctcdnw.seenow.vn/livesnv2/VAN_HOA/manifest.mpd
 https://livevlisctcdnw.seenow.vn/livesnv2/E_CHANNEL/manifest.mpd
 #EXTINF:-1 tvg-id="onsportsplus" group-title="VTVcab" tvg-logo="https://i.imgur.com/cFs8OVb.png", ON Sports+ 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://aismile.dpdns.org/play/Xp0xPSl85wdNA55xBqtBGdjvrwZKrL-vbYz4nY_dUms/ts
+#KODIPROP:inputstream=inputstream.adaptive 
+#KODIPROP:inputstream.adaptive.manifest_type=dash 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/tv/key.php?id=c410ddc6a75244639fd0561fba5ef19b:30d13ea42031b9ff8271e5dc37d90e10 
+https://cdnet-cdn-01.onsports.vn/onplus/HAY_TV/manifest.mpd 
 #EXTINF:-1 tvg-id="ono2tv" group-title="VTVcab" tvg-logo="https://i.imgur.com/nqwVkmM.png", On O2TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -112,7 +120,11 @@ https://livevlisctcdnw.seenow.vn/mean/VTVCAB13/manifest.mpd
 https://livevlisctcdnw.seenow.vn/livesnv2/M_CHANNEL/manifest.mpd
 #EXTINF:-1 tvg-id="onfootball" group-title="VTVcab" tvg-logo="https://i.imgur.com/WAxiIfP.png", ON Football HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://aismile.dpdns.org/play/Xp0xPSl85wdNA55xBqtBGZ3jVwbodnd-XsYnXY4nccw/ts
+#KODIPROP:inputstream=inputstream.adaptive 
+#KODIPROP:inputstream.adaptive.manifest_type=dash 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/tv/key.php?id=c410ddc6a75244639fd0561fba5ef19b:30d13ea42031b9ff8271e5dc37d90e10 
+https://cdnet-cdn-01.onsports.vn/onplus/BONGDA_HD/manifest.mpd 
 #EXTINF:0 tvg-id="ontrending" type="stream" group-title="VTVcab" tvg-logo="https://i.imgur.com/hHYzxmS.png", ON TRENDING TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -121,7 +133,11 @@ http://aismile.dpdns.org/play/Xp0xPSl85wdNA55xBqtBGZ3jVwbodnd-XsYnXY4nccw/ts
 https://livevlisctcdnw.seenow.vn/livesnv2/YEAH1_TV/manifest.mpd
 #EXTINF:-1 tvg-id="onsportsnews" group-title="VTVcab" tvg-logo="https://i.imgur.com/wpRXpJg.png", ON Sports News 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://aismile.dpdns.org/play/Xp0xPSl85wdNA55xBqtBGfjELkpuULaoe1h2pAp4xpE/ts
+#KODIPROP:inputstream=inputstream.adaptive 
+#KODIPROP:inputstream.adaptive.manifest_type=dash 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/tv/key.php?id=c410ddc6a75244639fd0561fba5ef19b:30d13ea42031b9ff8271e5dc37d90e10 
+https://cdnet-cdn-01.onsports.vn/onplus/THETHAO_TINTUC_HD/manifest.mpd
 #EXTINF:-1 tvg-id="onviedramas" group-title="VTVcab" tvg-logo="https://i.imgur.com/n7QICK7.png", ON Vie Dramas
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://tv.vietanhtv.top/vieon/vieon.php?id=vie-dramas-hd
@@ -147,7 +163,11 @@ https://livevlisctcdnw.seenow.vn/livesnv2/LIFE_TV/manifest.mpd
 
 #EXTINF:-1 tvg-id="ongolf" group-title="VTVcab" tvg-logo="https://i.imgur.com/BGF2I58.png", ON Golf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://vmttv.dpdns.org/tv360/?id=vtvcab-23-golf-channel
+#KODIPROP:inputstream=inputstream.adaptive 
+#KODIPROP:inputstream.adaptive.manifest_type=dash 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/tv/key.php?id=c410ddc6a75244639fd0561fba5ef19b:30d13ea42031b9ff8271e5dc37d90e10 
+https://cdnet-cdn-01.onsports.vn/onplus/THETHAO_GOLF_HD/manifest.mpd
 #EXTINF:-1 tvg-id="onplusufc" group-title="VTVcab" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d2/ON_Plus.png/revision/latest/scale-to-width-down/800?cb=20211120091857&path-prefix=vi", ON Plus UFC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 
@@ -341,7 +361,7 @@ https://freem3u.xyz/api/live/play.m3u8?vid=53
 https://freem3u.xyz/api/live/play.m3u8?vid=255
 #EXTINF:-1 tvg-id="dongnai3" group-title="Địa phương" tvg-logo="https://i.ibb.co/jPtpVwdk/z6914594816024-f9bfa9b1025b6dd2bdb8dec0cd66abb5-removebg-preview.png", ĐNNRTV3 | Báo & PTTH Đồng Nai
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.vietanhtv.top/vieon/vieon.php?id=dong-nai-3
+https://live.fptplay53.net/epzsd1/dongnai3_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="hanoi1" group-title="Địa phương" tvg-logo="https://i.imgur.com/mwCTDMj.png", H1 - Báo & PTTH Hà Nội
 #EXTVLCOPT:http-user-agent=VMTTV
 https://live.fptplay53.net/fnxhd2/hanoitv1_hls.smil/chunklist.m3u8
@@ -387,7 +407,7 @@ https://live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/playlist.m3u8
 #EXTINF:-1 tvg-id="tayninh1" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/TN_TayNinh.png", TN HD | Báo & PTTH Tây Ninh
 https://freem3u.xyz/api/live/play.m3u8?vid=72
 #EXTINF:0 tvg-id="gialai" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/GTV_GiaLai.png",GTV | Báo và PTTH Gia Lai
-https://tpninosaga.duckdns.org/tv/getlink/source/tv360.m3u8?id=55&token=NinoXLv78
+https://freem3u.xyz/api/live/play.m3u8?vid=55
 #EXTINF:-1 tvg-id="danang1" group-title="Địa phương" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/DNRT1_DaNang.png", ĐNRT1 | Báo & PTTH Đà Nẵng
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://freem3u.xyz/api/live/play.m3u8?vid=49
@@ -705,20 +725,21 @@ https://byvn.net/VOH-FM87-7
 #EXTINF:-1 tvg-logo="https://freem3u.xyz/static/images/voh/voh_am.png" group-title="VOH", VOH AM 610Khz
 https://byvn.net/VOH-AM610
 #EXTINF:-1 tvg-id="voh925" tvg-logo="https://image.voh.com.vn/voh/image/2025/11/17/92-5-3-104929.png" group-title="VOH", VOH-M (FM 92-92.5MHz)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://byvn.net/VOH-FM92-5
 #------------------------RADIO ĐỊA PHƯƠNG------------------------#
 #EXTINF:-1 tvg-logo="https://byvn.net/abK8" group-title="Radio",SON LA (FM96MHz)
 https://cdn.sonlatv.vn/live/285bfb76d0d7a3c4615b853fe7a698e150c/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://byvn.net/ZB7O" group-title="Radio",TUYEN QUANG RADIO (FM95.6MHz)
-https://streaming.tuyenquangtv.vn/channel/tuyenquang_radio/chunks.m3u8
+https://luuchieu.truyenhinhso.vn/media/live/EDBFCBB8687FE7589B3CDFEB/index.m3u8
 #EXTINF:-1 tvg-logo="https://byvn.net/hsiq" group-title="Radio",THAI NGUYEN (FM106.5MHz)
 https://radio.thainguyentv.vn/hls/livestream.m3u8
 #EXTINF:-1 tvg-logo="https://langsontv.vn/assets/images/logo_radio_default.jpg" group-title="Radio",LANG SON (FM88.6MHz)
 https://live-hq.evgcdn.net/live/285dabcfc94f52b458688fe7f601524816e/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://byvn.net/qB0P" group-title="Radio",QNR1 (FM97.8MHz)
-https://qtv.vncdn.vn/qtvlive/qnr1.m3u8
+http://103.90.220.236/qtvlive/qnr1.m3u8
 #EXTINF:-1 tvg-logo="https://byvn.net/lcwk" group-title="Radio",QNR2 (FM94.7MHz)
-https://live.baoquangninh.vn/qtvlive/qnr2.m3u8
+http://103.90.220.236/qtvlive/qnr2.m3u8
 #EXTINF:-1 tvg-logo="https://byvn.net/Xtw7" group-title="Radio",HANOI FM90
 https://freem3u.xyz/api/live/play.m3u8?vid=9905
 #EXTINF:-1 tvg-logo="https://byvn.net/i4OJ" group-title="Radio",HANOI FM96
@@ -736,7 +757,7 @@ https://live.mediatech.vn/live/285391a08f01f83458793b293c5e9517265/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://byvn.net/4Lfv" group-title="Radio",NGHE AN (FM99.6MHz)
 https://live.mediatech.vn/live/285bfb777e354ec43038aa68950adbac3a4/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://byvn.net/PTWY" group-title="Radio",HA TINH (FM97.8MHz)
-https://wse.hatinhtv.net/radio/voht/playlist.m3u8
+https://cohauw9bgpvod.vcdn.cloud/voht/index.m3u8
 #EXTINF:-1 tvg-logo="https://byvn.net/G07Z" group-title="Radio",DANANG RADIO (FM98.5MHz)
 https://live.mediatech.vn/live/2858a998b1c7fbf4522accd5554588ceae3/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://byvn.net/c8u3" group-title="Radio",HUE RADIO (FM93.0MHz)
@@ -761,7 +782,7 @@ https://live.mediatech.vn/live/2851dd3d9016ac74d84b0c4a7a659f76891/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://byvn.net/N62a" group-title="Radio",DONG THAP (FM96.2MHz - FM98.4MHz)
 https://618b88f69e53b.streamlock.net/THDTR/thdtradio/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://byvn.net/aBWj" group-title="Radio",CAN THO (FM97.3MHz)
-https://live.canthotv.vn/live/radio/playlist.m3u8
+https://live.canthotv.vn/live/radio1.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://byvn.net/VJE1" group-title="Radio",AN GIANG FM (FM93.1MHz)
 https://tv.angiangtv.vn/live/kgtv3/kgtv3.m3u8
 #EXTINF:-1 tvg-logo="https://byvn.net/TE0f" group-title="Radio",AN GIANG FM (FM99.4MHz)
@@ -992,119 +1013,119 @@ https://livevliatmcdw.seenow.vn/live/data8/SKSS2/Live_DASHDRM/SKSS2.mpd
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/jgIyWZPSS3U/maxresdefault.jpg", Dự Báo Thời Tiết [AI]
 #------------------------Live Stream------------------------#
 #EXTINF:-1 tvg-id="" group-title="" tvg-logo="https://yt3.googleusercontent.com/tMngDATK9dIcY0P6XjCkDTLJBDMzBjjirjxc6fQERAcj3ni_L8K0BkUj2yOCQ43S3bt3rvom=s160-c-k-c0x00ffffff-no-rj" group-title="Công Lý", NPH
-https://indication-database-lil-proceeding.trycloudflare.com/NPH
+https://item-proceed-space-deutschland.trycloudflare.com/NPH
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://yt3.googleusercontent.com/ui3TvAKmVDm0eMv5xm8_ddDC4p-VLRrYlDtYKxdZC2UUJwokCgN8oOMyli-M_5LTgaPb-MLB=s900-c-k-c0x00ffffff-no-rj", Nhạc Trẻ Remix (MIX CHILL CHANNEL) 
-https://indication-database-lil-proceeding.trycloudflare.com/Remix
+https://item-proceed-space-deutschland.trycloudflare.com/Remix
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_n-Js4b1tIH1yQVQnrkxGJos9uXjTa3CMlBg8FXdQ2j9h4=s160-c-k-c0x00ffffff-no-rj", Fin'd 
-https://indication-database-lil-proceeding.trycloudflare.com/Find
+https://item-proceed-space-deutschland.trycloudflare.com/Find
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/on-YRXSJ5Ig/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBv6lkMvGPktHUz6Zk1xrgwNaaftg", Lofi Girl  (Hip Hop radio - Study 📚)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi1
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi1
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://c.wallhere.com/photos/59/90/LofiGirl_LoFi_neon_LofiBoy_purple_blue-2234432.jpg!d", Lofi Girl  (synthwave radio 🌌 beats to chill/game to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi2
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi2
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/S_MOd40zlYU/maxresdefault.jpg", Lofi Girl  (dark ambient radio 🌃 music to escape/dream to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi3
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi3
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/-OekvEFm1lo/hq720.jpg?v=6707f95f&sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCX_fme7MIADEN2LwIeR0hNyeC5CQ", Lofi Girl  (gentle rain ambience 🌧 cozy sound to chill to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi4
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi4
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/IxPANmjPaek/maxresdefault.jpg", Lofi Girl  (medieval lofi radio 🏰 - beats to scribe manuscripts to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi5
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi5
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/fQ35eh6k0RI/maxresdefault.jpg", Lofi Girl  (sleep ambient music 💤 relaxing radio to fall asleep to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi6
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi6
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/E_XmwjgRLz8/hq720.jpg?v=68a74269&sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBKDexjI6eVFoszf7zyadLxl7Upaw", Lofi Girl  (chill guitar radio 🎸 music to study/relax to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi7
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi7
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/q_4KI-ChIIs/mqdefault.jpg", Lofi Girl  (fireplace ambience 🔥 cozy sound to chill to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi8
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi8
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/5EtJrViIk2A/hq720.jpg?v=68dd324d&sqp=CMTDn9MG-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAdF61jp6vj33PagCE0SOcP_mCuOw", Lofi Girl  (Halloween lofi radio 🧟‍♀️ - spooky beats to get chills to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi9
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi9
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/A8jDx9TLMQc/sddefault.jpg?v=698f87e4", Lofi Girl  (relaxing jazz music 🌹 cozy radio to study/chill to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi10
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi10
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://instagram.fsgn23-1.fna.fbcdn.net/v/t51.82787-15/589152203_18182719558364117_633503299345767641_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=Mzc3OTU4MTU3MDg0MDM2NzUwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=6yWOnkWGDewQ7kNvwE7vn9A&_nc_oc=AdoNKGufnL4KgTXJpTE2YJVXsx25LWpqAYlUMXijBoZ-Y24CU7XJPGejrPU2Y0Lqoh-SJbcdMkQ4kkTidt4rN2Xt&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsgn23-1.fna&_nc_gid=pdJkreiRAJi7WftLxh-opA&_nc_ss=7a22e&oh=00_AQFUMp0_uWbNSMjrMYEDBHoeKCNn2nvy2496M1NmK5dWQw&oe=6A74B7B5", Lofi Girl  (classical music radio 🎻 relaxing songs to read/study to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi11
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi11
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/C4qJeIjNd2U/hq720.jpg?v=6929a5ba&sqp=CNDp39IG-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCD75q8Gbx9cIqvUxWYqEbD6ymHhg", Lofi Girl  (christmas lofi music🎄cozy radio to get festive to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi12
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi12
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/N0snMcR6aaA/maxresdefault.jpg", Lofi Girl  (relaxing piano radio 🎹 calm music to focus to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi13
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi13
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/JD-kMIpDfnY/maxresdefault.jpg", Lofi Girl  (lofi hip hop radio 💤 beats to sleep/chill to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi14
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi14
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://www.lofigirl.com/_next/image?url=https://cdn.lofigirl.com/jazz.jpeg&w=3840&q=75", Lofi Girl  (jazz lofi radio 🎷 beats to chill/study to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi15
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi15
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/1Tl2FtV06qo/maxresdefault.jpg", Lofi Girl  (asian lofi radio ⛩️ beats to relax/study to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi16
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi16
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://i.ytimg.com/vi/CwPCy1GLS38/hq720.jpg?v=6a16e661&sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBbZZH9kF9qx82t5UOjQEy7ypDuCQ", Lofi Girl  (sad lofi radio ☔ beats for rainy days)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi17
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi17
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://instagram.fsgn23-1.fna.fbcdn.net/v/t51.82787-15/625099069_18101721448864116_2938214650512733762_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzQ1MzQxNDI5MTA3MDM5NTM3OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjU2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=U2iax8rmVe4Q7kNvwGAKu2C&_nc_oc=Ado1b5zuoVPqF_X9tQTSuiLiwOWkuoFylRuWvgciyXQNaUokVW4dLZUMWtZGM6lQ93dgBrqVWo7VXO2gq1mZl3KH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsgn23-1.fna&_nc_gid=QocYkuGGLamb52ktvzoQpQ&_nc_ss=7a22e&oh=00_AQEcYxyBoCA8cPgIkaIxIoMbZd8RjCDBo6vTGJgAzs9GVw&oe=6A74980C", Lofi Girl  (Study With Me 📚 Pomodoro)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi18
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi18
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://pbs.twimg.com/media/HJ5WKd7XoAAoEFF?format=jpg&name=large", Lofi Girl  (synth ambient radio 🌌 deep space music to sleep to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi19
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi19
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://instagram.fsgn23-1.fna.fbcdn.net/v/t51.82787-15/564221590_17925620607115629_9047769837916724154_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzc0MjcwODI1NjMxNDkzMzg2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjE2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=tYARnMxHKS0Q7kNvwG3qPCb&_nc_oc=AdpS4MuS9MEExba2MRIy50Yco7gkbOxyi2n3VFGLgo3dE0EcRvr1laSkNcgFI8BAL4I2_pEoLgvVQXxkpFHp3eKP&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsgn23-1.fna&_nc_gid=juKjcmRbilT4O_DVTUAnCw&_nc_ss=7a22e&oh=00_AQHA6UeosZKi7G5yWL40OkOMuv6Zl3Jm-Z9dfydcMV4ynQ&oe=6A748E7A", Lofi Girl  (sleep lofi radio 🌌 relaxing music to sleep/dream to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi20
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi20
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://instagram.fsgn23-1.fna.fbcdn.net/v/t51.82787-15/760915250_18208222750364117_6572954091229976155_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk1MjA3OTY2OTAwNDM1NzkyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM5Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Jw8v-JfLGPAQ7kNvwEzfdYT&_nc_oc=AdqT4k7Q-o30Z3kgc4KcDAmJ3sx5mYgC0Camjx2XVrCFGsboLmoo0c3U6ibAYKSOCVTG0T5IYKZOzWxiatwf3QEj&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsgn23-1.fna&_nc_gid=VjsiC224kaEpWqH3V_EKpw&_nc_ss=7a22e&oh=00_AQFsRjqQhuoC0TCdUk_6aIw2jplkgmXM5-Ea-F3rZa_lNw&oe=6A749451", Lofi Girl  (24/7 deep sleep music 🌌 calm ambient to sleep & dream to)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Lofi21
+https://item-proceed-space-deutschland.trycloudflare.com/Lofi21
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://yt3.googleusercontent.com/NKUNfkXGmKEjzBEEkFUoLpRKUqJGOA4KQ5VknBod-Npk2eRARp6VnR8OkRbjmQw7mArR6sAR4kk=s160-c-k-c0x00ffffff-no-rj", Dreamcore
-https://indication-database-lil-proceeding.trycloudflare.com/Dream
+https://item-proceed-space-deutschland.trycloudflare.com/Dream
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://images.wantedly.com/i/ZCYoboZ", Pops Kids-Doraemon
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Doraemon
+https://item-proceed-space-deutschland.trycloudflare.com/Doraemon
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://images.wantedly.com/i/ZCYoboZ", Pops Kids-Pokemon
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Pokemon
+https://item-proceed-space-deutschland.trycloudflare.com/Pokemon
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://yt3.googleusercontent.com/VTHDoO1AwTgwAJ9dxgnkz9mlP0ZWYTURRPwiSrs03arAlW3qgqNn9a6ql83NpQwwfD2s10d6rw=s160-c-k-c0x00ffffff-no-rj", Shaun the Sheep [ViệtNam]
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://indication-database-lil-proceeding.trycloudflare.com/Sheep
+https://item-proceed-space-deutschland.trycloudflare.com/Sheep
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://yt3.googleusercontent.com/T5jVxbf_qo_zKAHx_blbMRvyElV9jc_u4PwuWqvDxgDStRfrgrw0BKtSdXQyAtwMBGARKyPRYg=s160-c-k-c0x00ffffff-no-rj", Talking Tom
-https://indication-database-lil-proceeding.trycloudflare.com/Tom
+https://item-proceed-space-deutschland.trycloudflare.com/Tom
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://yt3.googleusercontent.com/o3XSE_XXaKJmo185uk4OTY3gf56rwCtviaR0bU3ecA4JO5AqJToAbfx0vS7zbVjL-_qVcXwjrg=s160-c-k-c0x00ffffff-no-rj", Brainrot Stories
-https://indication-database-lil-proceeding.trycloudflare.com/Brainrot
+https://item-proceed-space-deutschland.trycloudflare.com/Brainrot
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_mk1yYF4OxAX212QkZI7EEa9LEXMaHS7uq8ihLllD1OHg0=s900-c-k-c0x00ffffff-no-rj", JayGrayVN
-https://indication-database-lil-proceeding.trycloudflare.com/Jaygray
+https://item-proceed-space-deutschland.trycloudflare.com/Jaygray
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://yt3.googleusercontent.com/qrnXgq-bKVyBS-fEMLKS-OHupHHgoF1jWY8XGG4aZeQ4_kiNo54QYYfBOfas3It46k2-lN21uyc=s900-c-k-c0x00ffffff-no-rj", Redhood
-https://indication-database-lil-proceeding.trycloudflare.com/Redhood
+https://item-proceed-space-deutschland.trycloudflare.com/Redhood
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://yt3.googleusercontent.com/WbmMTISXZrssK2iBKWxA6E_O6GMIr8_SZ76tsRQrvLDQJhJnXkhNbXZjA7oJRRFnDJ9APAlNTjc=s900-c-k-c0x00ffffff-no-rj", Mều Channel
-https://indication-database-lil-proceeding.trycloudflare.com/Meu
+https://item-proceed-space-deutschland.trycloudflare.com/Meu
 #EXTINF:-1 tvg-id="" group-title="Livestream" tvg-logo="https://yt3.googleusercontent.com/RfQiRrbPVAXxnKfsd2AgbAuCjwKNYozS9ivNEhsXKQuOmW9_6_JYtMDfOZTQnSReggRy9ONj=s160-c-k-c0x00ffffff-no-rj", Hat Snow Player
-https://indication-database-lil-proceeding.trycloudflare.com/Hatsnow
+https://item-proceed-space-deutschland.trycloudflare.com/Hatsnow
 
 #------------------------Camera------------------------#
 #EXTINF:-1 tvg-id="" group-title="Camera" tvg-logo="https://cdn-icons-png.flaticon.com/512/4249/4249275.png", Camera Giao thông cầu Vĩnh Tuy (Hà Nội)
-https://indication-database-lil-proceeding.trycloudflare.com/Camhanoi
+https://item-proceed-space-deutschland.trycloudflare.com/Camhanoi
 #EXTINF:-1 tvg-id="" group-title="Camera" tvg-logo="https://cdn-icons-png.flaticon.com/512/4249/4249275.png", Camera Hon Chong Beach (Nha Trang)
-https://indication-database-lil-proceeding.trycloudflare.com/Camnhatrang
+https://item-proceed-space-deutschland.trycloudflare.com/Camnhatrang
 #EXTINF:-1 tvg-id="" group-title="Camera" tvg-logo="https://cdn-icons-png.flaticon.com/512/4249/4249275.png", Cam001 Vườn Quốc Gia Cát Tiên
-https://indication-database-lil-proceeding.trycloudflare.com/KSCAM001
+https://item-proceed-space-deutschland.trycloudflare.com/KSCAM001
 #EXTINF:-1 tvg-id="" group-title="Camera" tvg-logo="https://cdn-icons-png.flaticon.com/512/4249/4249275.png", Cam002 Vườn Quốc Gia Cát Tiên
-https://indication-database-lil-proceeding.trycloudflare.com/KSCAM002
+https://item-proceed-space-deutschland.trycloudflare.com/KSCAM002
 #EXTINF:-1 tvg-id="" group-title="Camera" tvg-logo="https://cdn-icons-png.flaticon.com/512/4249/4249275.png", Cam003 Vườn Quốc Gia Cát Tiên
-https://indication-database-lil-proceeding.trycloudflare.com/KSCAM003
+https://item-proceed-space-deutschland.trycloudflare.com/KSCAM003
 #EXTINF:-1 tvg-id="" group-title="Camera" tvg-logo="https://cdn-icons-png.flaticon.com/512/4249/4249275.png", Cam004 Vườn Quốc Gia Cát Tiên
-https://indication-database-lil-proceeding.trycloudflare.com/KSCAM004
+https://item-proceed-space-deutschland.trycloudflare.com/KSCAM004
 #EXTINF:-1 tvg-id="" group-title="Camera" tvg-logo="https://cdn-icons-png.flaticon.com/512/4249/4249275.png", Cam005 Vườn Quốc Gia Cát Tiên
-https://indication-database-lil-proceeding.trycloudflare.com/KSCAM005
+https://item-proceed-space-deutschland.trycloudflare.com/KSCAM005
 #EXTINF:-1 tvg-id="" group-title="Camera" tvg-logo="https://cdn-icons-png.flaticon.com/512/4249/4249275.png", Cam006 Vườn Quốc Gia Cát Tiên
-https://indication-database-lil-proceeding.trycloudflare.com/KSCAM006
+https://item-proceed-space-deutschland.trycloudflare.com/KSCAM006
 #EXTINF:-1 tvg-id="" group-title="Camera" tvg-logo="https://cdn-icons-png.flaticon.com/512/4249/4249275.png", Cam007 Vườn Quốc Gia Cát Tiên
-https://indication-database-lil-proceeding.trycloudflare.com/KSCAM007
+https://item-proceed-space-deutschland.trycloudflare.com/KSCAM007
 #EXTINF:-1 tvg-id="" group-title="Camera" tvg-logo="https://cdn-icons-png.flaticon.com/512/4249/4249275.png", Camera Giám sát Vườn Quốc Gia Cát Tiên
-https://indication-database-lil-proceeding.trycloudflare.com/KSMONITOR
+https://item-proceed-space-deutschland.trycloudflare.com/KSMONITOR
 
 #------------------------Quốc tế------------------------#
 #EXTINF:-1 tvg-logo="https://english4u.com.vn/Uploads/images/Anh/hong/hong1/cach-luyen-nghe-tieng-anh-qua-voa-special-english.png" group-title="Quốc Tế", VOA (DỪNG PHÁT SÓNG)
@@ -1309,8 +1330,8 @@ http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/pla
 #EXTINF:-1 tvg-id="ArirangRadio.kr@SD" tvg-logo="https://i.imgur.com/dtfiG9k.png" group-title="Hàn Quốc",Arirang Radio (720p)
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BabyFirst.us@US" tvg-logo="https://i.imgur.com/WxLHBwu.png" group-title="Hàn Quốc",BabyFirst (720p)
-http://206.212.244.63/639/index.m3u8
-#EXTINF:-1 tvg-id="BBSTV.kr@SD" tvg-logo="https://i.imgur.com/01UmXRe.png" group-title="Hàn Quốc",BBS Buddhist Broadcasting (1080p)
+https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
+6#EXTINF:-1 tvg-id="BBSTV.kr@SD" tvg-logo="https://i.imgur.com/01UmXRe.png" group-title="Hàn Quốc",BBS Buddhist Broadcasting (1080p)
 http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="BTNTV.kr@SD" tvg-logo="https://i.imgur.com/sOoS7RQ.png" group-title="Hàn Quốc",BTN TV (1080p)
 https://btn.nowcdn.co.kr/btn/btnlive2m/playlist.m3u8
@@ -1343,7 +1364,7 @@ https://gstv-myshop.gsshop.com/myshop_hd/myshop_hd.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="GugakTV.kr@SD" tvg-logo="https://i.imgur.com/Ey7Htm8.png" group-title="Hàn Quốc",GugakTV 국악방송 (1080p)
 https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="GugbangTV.kr@SD" tvg-logo="https://i.imgur.com/f1tz5fg.png" group-title="Hàn Quốc",Gugbang TV (1080p) [Not 24/7]
-http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
+
 #EXTINF:-1 tvg-id="HomeShopping.kr@SD" tvg-logo="https://i.imgur.com/IcexRXG.png" group-title="Hàn Quốc",Home & Shopping (720p)
 https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8
 #EXTINF:-1 tvg-id="HyundaiHomeShopping.kr@SD" tvg-logo="https://i.imgur.com/NJpECmq.png" group-title="Hàn Quốc",Hyundai Home Shopping (720p)
@@ -1397,7 +1418,7 @@ http://61.82.49.4:1935/live/_definst_/tv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="HLKJDTV.kr@SD" tvg-logo="https://i.imgur.com/iAz0Psw.png" group-title="Hàn Quốc",SBS JIBS (720p) [Not 24/7]
 http://123.140.197.22/stream/1/play.m3u8
 #EXTINF:-1 tvg-id="HLDQDTV.kr@SD" tvg-logo="https://i.imgur.com/byss0Ld.png" group-title="Hàn Quốc",SBS JTV (406p) [Not 24/7]
-http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8
+
 #EXTINF:-1 tvg-id="HLDHDTV.kr@SD" tvg-logo="https://i.imgur.com/Srsw4Mi.png" group-title="Hàn Quốc",SBS KBC (1080p) [Not 24/7]
 https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ShinsegaeTVShopping.kr@SD" tvg-logo="https://i.imgur.com/Hq3yjqA.png" group-title="Hàn Quốc",Shinsegae Shopping TV (720p)
@@ -1424,8 +1445,8 @@ https://streamer.nknews.org/tvdash/stream.mpd
 #------------------------Cambodia-(Campuchia)------------------------#
 #EXTINF:-1 tvg-id="ApsaraTV11.kh@SD" tvg-logo="https://i.imgur.com/9wJe71I.png" group-title="Cambodia",Apsara TV11 (720p)
 https://live.ams.com.kh/app/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="CTN.kh@SD" tvg-logo="https://i.imgur.com/r523kOq.png" group-title="Cambodia",CTN [Not 24/7]
-https://live.happywatch99.com/ctnhdtv/c83cc584a878608f6b36a9717bd7a8ab.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="ARDBTV.kh@SD" tvg-logo="https://i.imgur.com/yOncWla.png" group-title="Outdoor",ARDB TV (1080p) [Not 24/7]
+https://ardbtv.ardb.com.kh:8443/tv-live/tv-online.m3u8
 #EXTINF:-1 tvg-id="CTV9.kh@SD" tvg-logo="https://i.imgur.com/jgVJt2G.png" group-title="Cambodia",CTV 9 (1080p)
 http://43.252.18.195:5080/live/streams/ctv9_hd_playlist.m3u8
 #EXTINF:-1 tvg-id="EBCGeneralEducation.kh@SD" tvg-logo="https://elearning.ebc.edu.kh/pluginfile.php/1/theme_remui/logo/1770608989/ebc-logo.png" group-title="Cambodia",EBC General Education (720p) [Not 24/7]
@@ -1440,7 +1461,7 @@ https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd
 #EXTINF:-1 tvg-id="MOITV.kh@SD" tvg-logo="https://i.imgur.com/fbI2ybo.png" group-title="Cambodia",MOI TV
 http://202.62.56.22:8080/hls/MOITV.m3u8
 #EXTINF:-1 tvg-id="MyTV.kh@SD" tvg-logo="https://i.imgur.com/lhxRefQ.png" group-title="Cambodia",My TV (576p)
-https://live.happywatch99.com/mytvhdtv/c83cc584a878608f6b36a9717bd7a8ab.sdp/playlist.m3u8
+
 #EXTINF:-1 tvg-id="NTV.kh@SD" tvg-logo="https://i.imgur.com/SoBhuIb.png" group-title="Cambodia",NTV
 http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8
 #EXTINF:-1 tvg-id="OneTVESchoolCambodia.kh@SD" tvg-logo="https://i.imgur.com/wLzVdeT.png" group-title="Cambodia",One TV E-School Cambodia (1080p)
@@ -1479,7 +1500,7 @@ https://live-us1.thaimomo.com/live-as/chthairathhd-3/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇭| Thái Lan" tvg-logo="https://i.imgur.com/CwalZjr.png",Thai PBS [Not 24/7]
 https://thaipbs-live.cdn.byteark.com/live/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇭| Thái Lan" tvg-logo="https://i.imgur.com/Okcnmt6.png",Thai Parliament TV [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://tv-live.tpchannel.org/live/tv.m3u8
 #EXTINF:-1 tvg-id="TRUE4U.th" group-title="🇹🇭| Thái Lan" tvg-logo="https://i.imgur.com/O6Xre1O.png",True 4U
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
